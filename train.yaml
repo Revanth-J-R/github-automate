@@ -1,5 +1,4 @@
 name: Train and Upload Model
-
 on:
   push:
     branches: [ main ]
@@ -34,3 +33,4 @@ jobs:
         path: |
           model/my_model.pkl
           model/profile.txt
+
